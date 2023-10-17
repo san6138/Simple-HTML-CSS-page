@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazing Prices</title>
+    <style>
+        header {
+            height:15vh;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid dodgerblue;
+        }
+        .header-prod {
+            padding: 5vw;
+        }
+        .header-link {
+            display: flex;
+            padding: 0 5vw 0 0;
+            justify-content: space-evenly ;
+        }
+        .header-a {
+            margin: 0 2vw 0 0;
+        }
+        main {
+            background: aqua;
+        }
+
+        .section-heading {
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            height: 62%;
+            justify-content: space-around;
+            background: antiquewhite;
+        }
+
+        .card-container {
+            border: solid salmon;
+            width: 15%;
+            border-radius: 30px;
+        }
+        div[class="card-container"] p {
+            text-align: center;
+        }
+
+        .tier {
+            border-bottom: solid black;
+            padding: 0 0 10px 0;
+        }
+
+        button {
+            background: dodgerblue;
+            border: None;
+            height: 30px;
+            width: 120px;
+            margin-left: 50%;
+            margin-bottom: 10px;
+            transform: translateX(-50%);
+        }
+
+        main > p {
+            margin: 20px 0 0 0;
+            position:relative;
+            left:50%;
+            transform: translateX(-50%);
+            width:40%;
+            text-align: center;
+
+        }
+        th {
+            background: grey;
+        }
+        table {
+            width:84%;
+            height:30vh;
+            padding-bottom: 20px;
+            margin: auto;
+            border-collapse: collapse;
+            background: aqua;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+
+        #col-head {
+            width: 30%;
+        }
+        .col {
+            width:23.3%;
+        }
+
+        .footers {
+            height:14vh;
+            display: flex;
+            border-top: 1px solid dodgerblue;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-prod">
+        <p>Amazing Product</p>
+    </div>
+    <div class="header-link">
+        <a href="" class="header-a">Features</a>
+        <a href="" class="header-a">Enterprise</a>
+        <a href="" class="header-a">Support</a>
+        <a href="" class="header-a">Pricing</a>
+    </div>
+</header>
+<main>
+    <h1 class="section-heading">Amazing Prices</h1>
+    <p> A neat story of 1402 homes where we have egg boiler heateer, frdige,
+        microwave and harish gottapu is cooking panner now and I am think
+        ing to cook chicken</p>
+    <section>
+    <div class="cards">
+
+        <div class="card-container">
+            <p class="tier">Free</p>
+            <p>$0/month</p>
+            <p>2GB of storage</p>
+            <p>Help Center Access</p>
+            <p>Email support</p>
+            <button>Sign up for free </button>
+        </div>
+        <div class="card-container">
+            <p class="tier">Pro</p>
+            <p>$15/month</p>
+            <p>10GB of storage</p>
+            <p>Help Center Access</p>
+            <p>Email support</p>
+            <button>Sign up for free </button>
+        </div>
+        <div class="card-container">
+            <p class="tier">Premium</p>
+            <p>$29/month</p>
+            <p>15GB of storage</p>
+            <p>Help Center Access</p>
+            <p>Email support</p>
+            <button>Sign up for free </button>
+        </div>
+    </div>
+    </section>
+    <section>
+        <h1 class="section-heading">Compare Plans</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th id="col-head"></th>
+                    <th class="col">Free</th>
+                    <th class="col">Pro</th>
+                    <th class="col">Enterprise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Public</b></td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><b>Private</b></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><b>Permissions</b></td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><b>Sharing</b></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><b>Unlimited members</b></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                    <td><b>Extra Security</b></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+    </section>
+</main>
+<footer>
+    <div class="footers">
+        <a href="">Amazing Product</a>
+        <a href="">Features</a>
+        <a href="">Enterprise</a>
+        <a href="">Support</a>
+        <a href="">Pricing</a>
+    </div>
+</footer>
+
+</body>
+</html>
